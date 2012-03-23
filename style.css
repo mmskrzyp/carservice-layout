@@ -1,0 +1,142 @@
+/* CSS Reset */
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Tell the browser to render HTML 5 elements as block */
+header, footer, aside, #mainNavigation, article {
+    display: block;
+}
+
+/* Defaults */
+body {
+    margin: 0 auto;
+    width: 940px;
+    font: 13px/22px Helvetica, Arial, sans-serif;
+    background: #f1ebe4;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 44px;
+    padding: 22px 0;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 11px 0;
+}
+
+p {  
+    padding-bottom: 22px;
+}
+
+/* Header */
+header {
+	position: absolute;
+	left: 40px;
+	top: 20px;
+}
+
+/* Main Navigation */
+#mainNavigation {
+    position: absolute;
+	right: 0;
+	top: 35px;
+	width: 1000px;
+	background: #83212b;
+	border:5px hidden;
+	border-radius:25px;
+	-moz-border-radius:25px; /* Firefox 3.6 and earlier */
+	box-shadow: 5px 5px 10px #666666;
+}
+
+	#mainNavigation ul {
+		margin: 0 auto;
+		width: 700px;
+		list-style: none;
+	}
+
+		#mainNavigation ul li {
+			float: left;
+		}
+		
+			#mainNavigation ul li a {
+				display: block;
+				width: 140px;
+				font-size: 14px;
+				font-weight: bold;
+				line-height: 30px;
+				text-align: center;
+				text-decoration: none;
+				color: #ffb100;
+			}
+			
+				#mainNavigation ul li a:hover {
+					color: #fff;
+				}
+				
+				#mainNavigation ul li.selected a {
+					color: #fff;
+				}
+				
+/* Content */
+#ratesSection {
+	margin-top: 120px;
+	margin-bottom: 200px;
+	top: 120px;
+	width: 940px;
+	height: 600px;
+	background: #83212b;
+	overflow-x: scroll;
+}
+				
+/* Footer */
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 200px;
+	background: #01939a;
+	border-top: 5px;
+	border-top-style: dotted;
+}
+
+/* Footer Navigation */
+#footerNavigation {
+    position: absolute;
+	left: 0;
+	width: 500px;
+}
+
+	#footerNavigation ul {
+		margin: 0 auto;
+		width: 600px;
+		list-style: none;
+	}
+
+		#footerNavigation ul li {
+			float: left;
+		}
+		
+			#footerNavigation ul li a {
+				display: block;
+				width: 140px;
+				font-size: 14px;
+				font-weight: bold;
+				line-height: 30px;
+				text-align: center;
+				text-decoration: none;
+				color: #ffb100;
+			}
+			
+				#footerNavigation ul li a:hover {
+					color: #fff;
+				}
+				
+				#footerNavigation ul li.selected a {
+					color: #fff;
+				}
