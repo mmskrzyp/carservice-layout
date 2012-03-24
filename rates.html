@@ -1,23 +1,28 @@
 <!doctype html>
 <html>
 <head>
-	<title>Rates Page</title>
+	<title>Rates</title>
 </head>
 <body>
 	<header>
-		<h1>Nag³ówek strony, logo itd.</h1>
+		<div id="companysLogo">
+			<h1>Nag³ówek strony, logo itd.</h1>
+		</div>
 		<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 	</header>
+	
 	<nav id="mainNavigation">
 		<ul>  
-			<li><a href="#">Home Page</a></li>
-			<li><a href="#">About us/Contact</a></li>
-			<li><a href="#">Rates</a></li>
-			<li><a href="#">Our services/Prices</a></li>
+			<li><a href="index.html">Home Page</a></li>
+			<li><a href="contact.html">About us/Contact</a></li>
+			<li class="current"><a href="rates.html">Rates</a></li>
+			<li><a href="prices.html">Our services/Prices</a></li>
 			<li><a href="#">Log in</a></li>
 		</ul>
 	</nav>
-	<section id="ratesSection">
+	
+	<section id="content">
+		<h2>Rates</h2>
 		<article class="rate">
 			<img src="#" alt="Rating Bar" />
 			<p class="rateContent">Cupcake ipsum dolor sit amet. Topping bear claw jujubes soufflé cupcake jelly beans macaroon biscuit. Chocolate bar croissant pudding wafer sugar plum I love I love applicake chupa chups. Sugar plum marshmallow I love chocolate liquorice croissant. Chocolate cake sweet roll wafer brownie carrot cake candy canes gummies toffee. Tiramisu chupa chups gummies pastry gingerbread chocolate oat cake. I love chocolate bar liquorice croissant bonbon cookie bear claw I love cake. Applicake ice cream brownie jujubes. Gummies toffee applicake oat cake biscuit tart chocolate bar bonbon powder. I love chocolate bar tart cake. Pudding apple pie gummi bears applicake dessert. Tiramisu ice cream marzipan macaroon cookie dessert chocolate croissant I love. Pie danish tart chocolate bar bear claw marshmallow wafer topping. Chupa chups lemon drops topping cupcake.</p>
@@ -39,25 +44,27 @@
 			<p class="rateAuthor">Gorilla Monkey</p>
 		</article>
 	</section>
+	
 	<footer>
 		<nav id="footerNavigation">
 			<ul>
-				<li><a href="#">Home Page</a></li>
-				<li><a href="#">About us/Contact</a></li>
-				<li><a href="#">Rates</a></li>
-				<li><a href="#">Our services/Prices</a></li>
+				<li><a href="index.html">Home Page</a></li>
+				<li><a href="contact.html">About us/Contact</a></li>
+				<li><a href="rates.html">Rates</a></li>
+				<li><a href="prices.html">Our services/Prices</a></li>
 			</ul>
 		</nav>
-		<nav id="SocialFeedsNavigation">
+		<nav id="socialFeedsNavigation">
 			<ul>
-				<li><a href="#">RSS</a></li>
-				<li><a href="#">Twitter</a></li>
-				<li><a href="#">Facebook</a></li>
-				<li><a href="#">LinkedIn</a></li>
-				<li><a href="#">Flicr</a></li>
+				<li id="mail"><a href="#">e-mail</a></li>
+				<li id="rss"><a href="#">RSS</a></li>
+				<li id="twit"><a href="#">Twitter</a></li>
+				<li id="g"><a href="">Google+</a></li>
+				<li id="fb"><a href="#">Facebook</a></li>
+				<li id="li"><a href="#">LinkedIn</a></li>
 			</ul>
 		</nav>
-		<img src="#" alt="CarService Engin Logo" />
+		<img src="#" alt="CarService Engin Logo" id="carServiceEnginLogo" />
 	</footer>
 </body>
 </html>
