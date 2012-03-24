@@ -43,6 +43,14 @@ a {
 	a:hover {
 		color: #FF7800;
 	}
+	
+iframe {
+	width: 400px;
+	height: 420px;
+	border: 0;
+	overflow: hide;
+	margin: 0;
+}
 
 button{
 	border: 1px solid #8ec1da;
