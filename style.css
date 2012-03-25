@@ -47,7 +47,8 @@ a {
 iframe {
 	width: 400px;
 	height: 420px;
-	border: 0;
+	border: 1px solid #8ec1da;
+	border-radius: 4px;
 	overflow: hide;
 	margin: 0;
 }
@@ -78,7 +79,7 @@ label {
 	
 input:not([type=radio]), textarea {
 	background: #ffffff;
-	border: none;
+	border: 1px solid #8ec1da;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	-khtml-border-radius: 3px;
@@ -117,8 +118,23 @@ header {
 	border-right: 3px dotted #3985A8;
 	box-shadow: 0 5px 25px -5px #000000;
 	text-align: center;
-	
 }
+
+table {
+	border: 1px solid #8ec1da;
+	border-radius: 4px;
+	text-align: left;
+	padding: 0;
+}
+
+	th, td {
+		padding: 5px;
+		margin: 0;
+	}
+
+	th {
+		background: #ddeef6;
+	}
 
 /* Main Navigation */
 #mainNavigation {
@@ -246,6 +262,17 @@ article.rate {
 	text-align: right;
 	font-style: italic;
 }
+
+article.prices {
+	display: block;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 5px 25px -5px #000000;
+}
+
+	article.prices table {
+		width: 100%;
+	}	
 
 #sendMessageForm {
 	width: 450px;
