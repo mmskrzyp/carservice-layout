@@ -64,8 +64,7 @@ button{
 	color: #3985a8;
 	text-shadow: 0 1px #fff;
 	padding: 5px 30px;
-}
-	
+}	
 	button:hover {
 		color: #FF7800;
 		cursor: pointer;
@@ -126,12 +125,10 @@ table {
 	text-align: left;
 	padding: 0;
 }
-
 	th, td {
 		padding: 5px;
 		margin: 0;
 	}
-
 	th {
 		background: #ddeef6;
 	}
@@ -150,18 +147,15 @@ table {
 	-webkit-box-shadow: inset 0 -15px #cbe6f2, 0 0 3px #8ec1da;
 	-moz-box-shadow: inset 0 -15px #cbe6f2, 0 0 3px #8ec1da;
 }
-
 	#mainNavigation ul {
 		margin-right: 20px;
 		margin-left: auto;
 		width: 600px;
 		list-style: none;
 	}
-
 		#mainNavigation ul li {
 			float: left;
-		}
-		
+		}		
 			#mainNavigation ul li a {
 				display: block;
 				width: auto;
@@ -173,12 +167,10 @@ table {
 				text-decoration: none;
 				color: #3985a8;
 				text-shadow: 0 1px #fff;
-			}
-			
+			}		
 				#mainNavigation ul li a:hover {
 					color: #FF7800;
-				}
-				
+				}				
 				#mainNavigation ul li.current a {
 					color: #FF7800;
 				}
@@ -214,8 +206,7 @@ article.box {
 	position: absolute;
 	left: 15%;
 	top: 10%;
-}
-	
+}	
 	#boxLogin input:not([type=radio]), textarea {
 		width: 200px;
 	}
@@ -269,7 +260,6 @@ article.prices {
 	margin-bottom: 20px;
 	box-shadow: 0 5px 25px -5px #000000;
 }
-
 	article.prices table {
 		width: 100%;
 	}	
@@ -277,23 +267,65 @@ article.prices {
 #sendMessageForm {
 	width: 450px;
 }
-
 	#sendMessageForm fieldset {
 		border: none;
 	}	
-	
 	#sendMessageForm ol {
 		list-style: none;
 		margin-left: -50px;
-	}
-	
+	}	
 	#sendMessageForm h3 {
 		margin-left: -11px;
-	}
-	
+	}	
 	#sendMessageForm button {
 		margin-left: 202px;
 	}
+	
+/* Protected */
+#protectedNavigation {
+	position: fixed;
+	left: 60px;
+	top: 120px;
+	width: 250px;
+}
+	#protectedNavigation ul {
+		margin-top: 0;
+		margin-left: -40px;
+		list-style: none;
+	}
+		#protectedNavigation ul li {
+			float: left;
+		}		
+			#protectedNavigation ul li a {
+				display: block;
+				width: 250px;
+				font-size: 15px;
+				font-weight: bold;
+				line-height: 30px;
+				text-align: center;
+				text-decoration: none;
+				color: #a8a8a8;
+				text-shadow: 0 1px #fff;
+				/*border: 1px solid #8ec1da;*/
+				border-collapse:collapse;
+			}		
+				#protectedNavigation ul li a:hover {
+					color: #000;
+				}				
+				#protectedNavigation ul li.current a {
+					color: #000;
+					box-shadow: -7px 5px 20px -7px #000000;
+				}
+				
+#content.protected {
+	display: block;
+	width: 700px;
+	min-height: 200px;
+	margin-left: 70px;
+	margin-top: 120px;
+	box-shadow: 7px 5px 20px -7px #000000;
+	padding: 0 20px;
+}
 				
 /* Footer */
 footer {
@@ -316,17 +348,14 @@ footer {
 	left: 50px;
 	bottom: 20px;
 }
-
 	#footerNavigation ul {
 		margin: 0 auto;
 		width: 400px;
 		list-style: none;
 	}
-
 		#footerNavigation ul li {
 			float: left;
-		}
-		
+		}		
 			#footerNavigation ul li a {
 				display: block;
 				width: 140px;
@@ -337,8 +366,7 @@ footer {
 				text-decoration: none;
 				color: #222;
 				text-shadow: 0 1px #ddd;
-			}
-			
+			}			
 				#footerNavigation ul li a:hover {
 					color: #B7E302;
 					text-shadow: 0 1px #fff;
@@ -360,12 +388,10 @@ footer {
 		list-style: none;
 		margin-top: 0;
 		margin-left: -40px;
-	}
-	
+	}	
 		#socialFeedsNavigation ul li {
 			float: left;
 		}
-
 				#socialFeedsNavigation ul li a {
 					font-size: 0;
 					line-height: 0;
@@ -374,8 +400,7 @@ footer {
 					margin: 5px;
 					border: 0;
 					display: block;
-				}
-				
+				}				
 				#socialFeedsNavigation li#mail a {background: url(images/mail-gray.png);}
 					#socialFeedsNavigation li#mail a:hover {background: url(images/mail.png);}
 				#socialFeedsNavigation li#rss a {background: url(images/rss-gray.png);}
