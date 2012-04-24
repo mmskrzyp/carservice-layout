@@ -1,4 +1,4 @@
-/* Defaults */
+﻿/* Defaults */
 table {
 	width: 100%;
 }
@@ -52,5 +52,5 @@ table {
 #content.protected {
 	display: block;
 	width: 675px;
-	margin-left: 125px;
+	/*margin-left: 125px;*/
 }

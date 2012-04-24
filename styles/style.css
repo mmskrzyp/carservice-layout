@@ -1,4 +1,4 @@
-/* CSS Reset */
+﻿/* CSS Reset */
 {
     margin: 0;
     padding: 0;
@@ -72,6 +72,23 @@ button{
 	button:hover {
 		color: #FF7800;
 		cursor: pointer;
+	}
+	
+form {
+	width: 450px;
+}
+	form fieldset {
+		border: none;
+	}	
+	form ol {
+		list-style: none;
+		margin-left: -50px;
+	}	
+	form h3 {
+		margin-left: -11px;
+	}	
+	form button {
+		margin-left: 202px;
 	}
 	
 label {
