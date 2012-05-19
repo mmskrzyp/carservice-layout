@@ -97,7 +97,7 @@ label {
 		width: 90px;
 	}
 	
-input:not([type=radio]), textarea {
+input:not([type=radio]), textarea, select {
 	background: #ffffff;
 	border: 1px solid #8ec1da;
 	-moz-border-radius: 3px;
