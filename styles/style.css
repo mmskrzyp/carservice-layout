@@ -300,6 +300,7 @@ footer {
 /* CarService Engine Logo */
 #carServiceEnginLogo {
 	position: absolute;
-	bottom: 50px;
+	bottom: 20px;
 	right: 150px;
+	height: 70px;
 }
