@@ -1,0 +1,116 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>User repairs</title>
+	<link rel="stylesheet" href="styles/style.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="styles/style-protected.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="styles/style-repairs-new.css" type="text/css" media="screen" />
+	<link type="text/css" href="jquery-ui-1.8.20.custom/css/redmond/jquery-ui-1.8.20.custom.css" rel="stylesheet" />
+	<script type="text/javascript" src="jquery-ui-1.8.20.custom/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="jquery-ui-1.8.20.custom/js/jquery-ui-1.8.20.custom.min.js"></script
+</head>
+<body>
+	<header>
+		<div id="companysLogo">
+			<h1>Header, logo etc.</h1>
+		</div>
+	</header>
+	
+	<nav id="mainNavigation">
+		<ul>  
+			<li><a href="index.html">Home Page</a></li>
+			<li><a href="contact.html">About us/Contact</a></li>
+			<li><a href="rates.html">Rates</a></li>
+			<li><a href="prices.html">Our services/Prices</a></li>
+			<li><a href="#">Log out</a></li>
+		</ul>
+	</nav>
+	
+	<nav id="protectedNavigation">
+		<ul>  
+			<li><a href="user-data.html">User data</a></li>
+			<li class="current"><a href="user-repairs.html">Repairs</a></li>
+			<li><a href="user-help.html">Help</a></li>
+		</ul>
+	</nav>
+	
+	<section id="content" class="protected">
+		<h2>Pan Filutek</h2>
+
+		<button type=submit>Go back to magazine</button>
+		<form>
+			<h3>Order more existing parts:</h3>
+				<ol>
+					<li>
+						<label for=car>Car: *</label>
+						<select id=car name=car type=text placeholder="Car" required autofocus>
+							<option value="1">1: Filtr oleju (ProducentA), 18zł</option>
+							<option value="2">2: Filtr powietrza (ProducentA), 20zł</option>
+						</select>
+					</li>
+					<li>
+						In magazine: &nbsp;&nbsp; <b>100</b>
+					</li>
+					<li>
+						<label for=amount>Amount to order: *</label>
+						<input type="text" id=amount name=amount placeholder="0" required></input>
+					</li>					
+				</ol>
+				<button type=submit>Order</button>
+		</form>
+		
+		<form>
+			<h3>Order other part:</h3>
+				<ol>
+					<li>
+						<label for=name>Name: *</label>
+						<input id=name name=name type=text placeholder="Name" required />
+					</li>
+					<li>
+						<label for=model>Model: *</label>
+						<input id=model name=model type=text placeholder="Model" required />
+					</li>
+					<li>
+						<label for=catalog_number>Catalog number: *</label>
+						<input id=catalog_number name=catalog_number type=text placeholder="Catalog number" required />
+					</li>
+					<li>
+						&nbsp;
+					</li>
+					<li>
+						<label for=producer>Producer: *</label>
+						<input id=producer name=producer type=text placeholder="Producer" required />
+					</li>
+					<li>
+						<label for=count>Count: *</label>
+						<input id=count name=count type=text placeholder="Count" required />
+					</li>					
+				</ol>
+				<button type=submit>Order</button>
+		</form>
+	</section>
+	
+	<footer>
+		<nav id="footerNavigation">
+			<ul>
+				<li><a href="index.html">Home Page</a></li>
+				<li><a href="contact.html">About us/Contact</a></li>
+				<li><a href="rates.html">Rates</a></li>
+				<li><a href="prices.html">Our services/Prices</a></li>
+			</ul>
+		</nav>
+		<nav id="socialFeedsNavigation">
+			<ul>
+				<li id="mail"><a href="#">e-mail</a></li>
+				<li id="rss"><a href="#">RSS</a></li>
+				<li id="twit"><a href="#">Twitter</a></li>
+				<li id="g"><a href="">Google+</a></li>
+				<li id="fb"><a href="#">Facebook</a></li>
+				<li id="li"><a href="#">LinkedIn</a></li>
+			</ul>
+		</nav>
+		<img src="images/carservice-logo.png" alt="CarService Engin Logo" id="carServiceEnginLogo" />
+	</footer>
+</body>
+</html>
